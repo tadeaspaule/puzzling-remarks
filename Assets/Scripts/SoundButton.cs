@@ -28,16 +28,6 @@ public class SoundButton : MonoBehaviour
         soundManager.UpdateSound(val);
     }
 
-    public void MouseEnter()
-    {
-        // Cursor.SetCursor(null,Vector2.zero,CursorMode.)
-    }
-
-    public void MouseLeave()
-    {
-        
-    }
-
     public void SliderUpdated()
     {
         UpdateSound(slider.value);

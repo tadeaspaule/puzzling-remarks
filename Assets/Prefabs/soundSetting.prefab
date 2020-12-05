@@ -61,7 +61,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.8396226, g: 0.11485406, b: 0.11485406, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -120,7 +119,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: MenuScreen, Assembly-CSharp
         m_MethodName: ClickedQuit
         m_Mode: 1
         m_Arguments:
@@ -143,7 +141,7 @@ GameObject:
   - component: {fileID: 6093846674716784866}
   - component: {fileID: 6093846674716784867}
   - component: {fileID: 6093846674716784868}
-  - component: {fileID: 6093846674716784869}
+  - component: {fileID: 7245335101097626921}
   m_Layer: 5
   m_Name: soundbtn
   m_TagString: Untagged
@@ -193,7 +191,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.16981131, g: 0.16981131, b: 0.16981131, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -225,8 +222,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 6093846674716784869}
-          m_TargetAssemblyTypeName: SoundButton, Assembly-CSharp
+        - m_Target: {fileID: 7245335101097626921}
           m_MethodName: MouseClick
           m_Mode: 1
           m_Arguments:
@@ -237,7 +233,7 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
---- !u!114 &6093846674716784869
+--- !u!114 &7245335101097626921
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -348,7 +344,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -423,7 +418,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -527,8 +521,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6093846674716784869}
-        m_TargetAssemblyTypeName: SoundButton, Assembly-CSharp
+      - m_Target: {fileID: 7245335101097626921}
         m_MethodName: SliderUpdated
         m_Mode: 1
         m_Arguments:
@@ -637,7 +630,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
